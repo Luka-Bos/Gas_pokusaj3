@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/KartingFirstTrack.unity
+- path: Assets/Scenes/DirtTrack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

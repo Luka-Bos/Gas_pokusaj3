@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Polovica : MonoBehaviour
 {
-   public GameObject Zavrseni;
-   public GameObject Pola;
+   public GameObject OvajCheckpoint;
+   public GameObject IduciCheckpoint;
 
-   void onTriggerEnter ()
+   void OnTriggerEnter()
    {
-       Zavrseni.SetActive (true);
-       Pola.SetActive (false);
+        OvajCheckpoint.SetActive(false);
+        IduciCheckpoint.SetActive(true);
    }
 }

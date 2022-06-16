@@ -3316,7 +3316,7 @@ GameObject:
   - component: {fileID: 256961505}
   - component: {fileID: 256961504}
   m_Layer: 5
-  m_Name: Milisekunde1
+  m_Name: MiliSekunde BEst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3331,14 +3331,14 @@ RectTransform:
   m_GameObject: {fileID: 256961502}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.810539, y: 5.3378882, z: 1}
   m_Children: []
-  m_Father: {fileID: 509425379}
-  m_RootOrder: 1
+  m_Father: {fileID: 494244463}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 101.02124, y: -24.999939}
+  m_AnchoredPosition: {x: 57.13208, y: -741.4368}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256961504
@@ -3424,7 +3424,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 127.277214, w: 1.7900391}
+  m_margin: {x: 0, y: 0, z: 167.09166, w: -10.153198}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5305,6 +5305,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1111620353}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &437531074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 437531076}
+  - component: {fileID: 437531075}
+  m_Layer: 0
+  m_Name: LaptimeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &437531075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437531074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e2c3d7da1eaec4cbb0293c941cba94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinuteBox: {fileID: 2127627955}
+  SekundeBox: {fileID: 1061005179}
+  MiliSekundeBox: {fileID: 1692266901}
+--- !u!4 &437531076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437531074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 689.68, y: -0.93000007, z: 208.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &439186931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5661,6 +5707,12 @@ RectTransform:
   - {fileID: 1179095130}
   - {fileID: 1015192862}
   - {fileID: 1000128702}
+  - {fileID: 2127627956}
+  - {fileID: 1061005180}
+  - {fileID: 1692266902}
+  - {fileID: 509425379}
+  - {fileID: 751502854}
+  - {fileID: 256961503}
   m_Father: {fileID: 991598114}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5821,7 +5873,7 @@ GameObject:
   - component: {fileID: 509425381}
   - component: {fileID: 509425380}
   m_Layer: 5
-  m_Name: Minute1
+  m_Name: Minute Best
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5836,16 +5888,14 @@ RectTransform:
   m_GameObject: {fileID: 509425378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 751502854}
-  - {fileID: 256961503}
-  m_Father: {fileID: 1000128702}
-  m_RootOrder: 0
+  m_LocalScale: {x: 3.8105392, y: 5.3378882, z: 1}
+  m_Children: []
+  m_Father: {fileID: 494244463}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 311, y: -25.269287}
+  m_AnchoredPosition: {x: -708.86816, y: -741.4377}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &509425380
@@ -7348,8 +7398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53a02f35e92b21b41a57293bd2cd2792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Zavrseni: {fileID: 1016622016}
-  Pola: {fileID: 614684612}
+  OvajCheckpoint: {fileID: 614684612}
+  IduciCheckpoint: {fileID: 1016622016}
 --- !u!65 &614684614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9046,7 +9096,7 @@ GameObject:
   - component: {fileID: 751502856}
   - component: {fileID: 751502855}
   m_Layer: 5
-  m_Name: Sekunde1
+  m_Name: Sekunde Best
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9061,14 +9111,14 @@ RectTransform:
   m_GameObject: {fileID: 751502853}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.810539, y: 5.3378882, z: 1}
   m_Children: []
-  m_Father: {fileID: 509425379}
-  m_RootOrder: 0
+  m_Father: {fileID: 494244463}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5604248, y: -24.999939}
+  m_AnchoredPosition: {x: -321.8684, y: -741.4368}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751502855
@@ -9906,6 +9956,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Name
       value: Car
@@ -9916,7 +9970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 693.08
+      value: 691
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9924,7 +9978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 208.96
+      value: 204.8
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9957,27 +10011,39 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e2f44d83259a3c14abd33197677dbc91, type: 2}
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
     - target: {fileID: 2300002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e2f44d83259a3c14abd33197677dbc91, type: 2}
+      objectReference: {fileID: 2100000, guid: f812bbc31ff2d3b49917662d3f5c9279, type: 2}
     - target: {fileID: 2300002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: e773be4e8e6c49f41bb67bfe941451c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
+    - target: {fileID: 2300008, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
+    - target: {fileID: 2300012, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
     - target: {fileID: 2300014, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e2f44d83259a3c14abd33197677dbc91, type: 2}
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
     - target: {fileID: 2300020, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e2f44d83259a3c14abd33197677dbc91, type: 2}
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
     - target: {fileID: 2300024, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b7021d6d5047521479567cae38fcefd4, type: 2}
+      objectReference: {fileID: 2100000, guid: 29c46ea4d4d270a4c8252a775b734930, type: 2}
+    - target: {fileID: 11400002, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
+      propertyPath: m_SpeedType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11992,8 +12058,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.8105395, y: 5.3378882, z: 1}
-  m_Children:
-  - {fileID: 509425379}
+  m_Children: []
   m_Father: {fileID: 494244463}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12189,6 +12254,7 @@ GameObject:
   - component: {fileID: 1016622019}
   - component: {fileID: 1016622018}
   - component: {fileID: 1016622017}
+  - component: {fileID: 1016622021}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -12266,12 +12332,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016622016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 693.5, y: 5.24, z: 228}
+  m_LocalPosition: {x: 687, y: 5.24, z: 212.5}
   m_LocalScale: {x: 55.760986, y: 11.085694, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016622021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016622016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a02f35e92b21b41a57293bd2cd2792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OvajCheckpoint: {fileID: 1016622016}
+  IduciCheckpoint: {fileID: 614684612}
 --- !u!1 &1016669492
 GameObject:
   m_ObjectHideFlags: 0
@@ -12596,7 +12676,7 @@ GameObject:
   - component: {fileID: 1061005182}
   - component: {fileID: 1061005181}
   m_Layer: 5
-  m_Name: Sekunde1
+  m_Name: Sekunde Vrijeme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12611,14 +12691,14 @@ RectTransform:
   m_GameObject: {fileID: 1061005179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.8105392, y: 5.3378882, z: 1}
   m_Children: []
-  m_Father: {fileID: 2127627956}
-  m_RootOrder: 0
+  m_Father: {fileID: 494244463}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5604248, y: -24.999939}
+  m_AnchoredPosition: {x: -311.93396, y: -194.43625}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061005181
@@ -14762,8 +14842,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.8105395, y: 5.3378882, z: 1}
-  m_Children:
-  - {fileID: 2127627956}
+  m_Children: []
   m_Father: {fileID: 494244463}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20359,7 +20438,7 @@ GameObject:
   - component: {fileID: 1692266904}
   - component: {fileID: 1692266903}
   m_Layer: 5
-  m_Name: Milisekunde1
+  m_Name: MiliSekunde Vrijeme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20374,14 +20453,14 @@ RectTransform:
   m_GameObject: {fileID: 1692266901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.8105392, y: 5.3378882, z: 1}
   m_Children: []
-  m_Father: {fileID: 2127627956}
-  m_RootOrder: 1
+  m_Father: {fileID: 494244463}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 101.02124, y: -24.999939}
+  m_AnchoredPosition: {x: 67.0647, y: -194.43625}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692266903
@@ -20467,7 +20546,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 127.277214, w: 1.7900391}
+  m_margin: {x: 0, y: 0, z: 164.55017, w: -10.776489}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -25806,7 +25885,7 @@ GameObject:
   - component: {fileID: 2127627958}
   - component: {fileID: 2127627957}
   m_Layer: 5
-  m_Name: Minute1
+  m_Name: Minute Vrijeme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25821,16 +25900,14 @@ RectTransform:
   m_GameObject: {fileID: 2127627955}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1061005180}
-  - {fileID: 1692266902}
-  m_Father: {fileID: 1179095130}
-  m_RootOrder: 0
+  m_LocalScale: {x: 3.8105392, y: 5.3378882, z: 1}
+  m_Children: []
+  m_Father: {fileID: 494244463}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 366, y: -25.269287}
+  m_AnchoredPosition: {x: -698.9342, y: -194.43707}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127627957

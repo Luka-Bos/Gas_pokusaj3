@@ -6,9 +6,9 @@ using System;
 
 public class CheckPoints : MonoBehaviour
 {
-    
+    public bool missed = false;
+    public GameObject PrevCheckPoint;
     public int lap = 0;
-    
     public int checkPoint = -4;
     int checkPointCount;
     int nextCheckpoint = 0;
@@ -21,7 +21,13 @@ public class CheckPoints : MonoBehaviour
     {
         GameObject[] checkpoints = GameObject.FindGameObjectsWithTag("checkpoint");
         checkPointCount = checkpoints.Length;
-
+        foreach(GameObject checpoint in checkpoints)
+        { 
+          if(checpoint.name == "0")
+            {
+                PrevCheckPoint = checpoint;
+            }
+        }
         foreach (GameObject cp in checkpoints)
         {
             visited.Add(Int32.Parse(cp.name), false);
@@ -40,9 +46,10 @@ public class CheckPoints : MonoBehaviour
             int checkpointCurrent = int. Parse(col.gameObject.name);
             if (checkpointCurrent==nextCheckpoint)
         {
+                PrevCheckPoint = col.gameObject;
                 visited[checkpointCurrent] = true;
                 checkPoint = checkpointCurrent;
-                if (checkPoint == 0)
+                if (checkPoint == 0 && gameObject.tag == "Player")
                 {
                     lap++;
                     lapText.text = "Lap:" + lap; 

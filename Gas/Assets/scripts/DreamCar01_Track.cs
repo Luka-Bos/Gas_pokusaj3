@@ -127,13 +127,13 @@ public class DreamCar01_Track : MonoBehaviour
     }
      IEnumerator OnTriggerEnter(Collider collision) {
         if(collision.gameObject.tag == "DreamCar01") {
-            this.GetComponent<BoxCollider>().enabled = false;
+            this.GetComponent<BoxCollider> ().enabled = false;
             MarkTracker += 1;
             if(MarkTracker == 22) {
                 MarkTracker = 0;
             }
             yield return new WaitForSeconds(1);
-            this.GetComponent<BoxCollider>().enabled = true;
+            this.GetComponent<BoxCollider> ().enabled = true;
         }
     }
 }
